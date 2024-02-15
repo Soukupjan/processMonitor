@@ -1,7 +1,7 @@
 # Features
-periodically gathers process metrics (for a specified amount of time)
-creates a report of the gathered process metrics (in CSV format)
-outputs the average for each process metric
+periodically gathers process metrics (for a specified amount of time),
+creates a report of the gathered process metrics (in CSV format),
+outputs the average for each process metric,
 detects possible memory leaks and raises a warning
 
 the metrics that should be gathered for the process are:
