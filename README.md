@@ -1,13 +1,13 @@
 # Features
-• periodically gathers process metrics (for a specified amount of time)
-• creates a report of the gathered process metrics (in CSV format)
-• outputs the average for each process metric
-• detects possible memory leaks and raises a warning
+periodically gathers process metrics (for a specified amount of time)
+creates a report of the gathered process metrics (in CSV format)
+outputs the average for each process metric
+detects possible memory leaks and raises a warning
 
 the metrics that should be gathered for the process are:
-• % of CPU used
-• private memory used
-• number of open handles / file descriptors
+% of CPU used
+private memory used
+number of open handles / file descriptors
 
 # Usage
 to start monitoring a process, run the script from the command line with the required arguments:
